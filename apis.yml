@@ -1,8 +1,27 @@
 aid: magic-spoon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/magic-spoon.png
 name: Magic Spoon
-description: Magic Spoon is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Magic Spoon is a direct-to-consumer breakfast brand selling high-protein,
+  low-sugar cereal, oatmeal, granola, treats, and toaster pastries through its
+  Shopify-powered online store and major retailers including Whole Foods,
+  Target, Costco, Walmart, Kroger, and Sprouts. The company reformulates
+  childhood-classic cereals to be keto-friendly and gluten-free, offering a
+  subscribe-and-save model. Magic Spoon is a consumer packaged goods (CPG)
+  ecommerce company backed by Lightspeed Venture Partners; it operates a retail
+  storefront rather than a public developer platform, and this profile was
+  surfaced as a VC portfolio company and added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/magic-spoon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Consumer Packaged Goods
+- Ecommerce
+- Food and Beverage
+- Direct to Consumer
+- Retail
+- Subscription
 apis: []
+common:
+- type: Website
+  url: https://magicspoon.com
+- type: TermsOfService
+  url: https://magicspoon.com/pages/terms-of-use
+- type: PrivacyPolicy
+  url: https://magicspoon.com/pages/privacy-policy
+- type: Support
+  url: https://magicspoon.com/pages/contact
+- type: DomainSecurity
+  url: security/magic-spoon-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
