@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/magic-spoon/integrations
+- https://n8n.io/integrations/magic-spoon/
+- https://composio.dev/toolkits/magic-spoon
+- https://monid.ai/tools/magic-spoon
+checked:
+- https://composio.dev/toolkits/magic-spoon
+- https://monid.ai/tools/magic-spoon
+- https://n8n.io/integrations/magic-spoon/
+- https://zapier.com/apps/magic-spoon/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
